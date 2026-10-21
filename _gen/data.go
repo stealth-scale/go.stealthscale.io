@@ -142,4 +142,9 @@ var modules = []Module{
 			},
 		},
 	},
+	{
+		Name:        "spec",
+		Description: "The program spec vendors the conformance definition of a polyglot library into each implementation of the library. It writes the copy, opens the pull requests that update it, and checks that the runner of each language reports a result for every case.",
+		Public:      true,
+	},
 }
